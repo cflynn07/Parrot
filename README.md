@@ -1,4 +1,4 @@
-Parrot
+Parrot (Coming Soon)
 ======
 
 Starter kit for AngularJS SPA w/ NodeJS RESTFul API available to an application via WebSockets (with realtime subscriptions) &amp; HTTP + Pagination, Filtering, Ordering, and expansion of nested resources to three levels.
