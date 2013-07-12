@@ -7,6 +7,18 @@ Features
 ========
 
 <b>Build clean, RESTFul APIs accessible over websockets & HTTP</b>
+
+GET Requests:
+- Pagination
+- Ordering
+- Filtering
+- Nested Resources
+
+Also:
+- Bulk POST (posting/creating an array of objects) with detailed responses & intelligent error handling
+- Auto subscribe to PUT changes when performing a GET request (socket.io only) for real-time web apps
+- Multiple authentication / permission levels
+
 <pre>
 GET http://example.com/api/v1/employees?limit=3&offset=1&order=[["firstName","asc"]]&expand=[{"resource":"templates"}]
 
