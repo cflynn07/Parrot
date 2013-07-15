@@ -1,24 +1,27 @@
-Parrot (Coming Soon)
+Parrot (WIP)
 ======
 
-Starter kit for AngularJS SPA w/ NodeJS RESTFul API available to an application via WebSockets (with realtime subscriptions) &amp; HTTP + Pagination, Filtering, Ordering, and expansion of nested resources to three levels.
+Server starter kit for SPA (recommend Angular.js for the client)
+- Node.js
+- Socket.io (realtime connectivity)
+- RESTFul API available (Accessible via HTTP and Websockets)
+  - Pagination
+  - Filtering
+  - Ordering
+  - Nested resource expansion (3 levels deep)
+  - Bulk create (POST)
 
 Features
 ========
 
-<b>Build clean, RESTFul APIs accessible over websockets & HTTP</b>
-
-GET Requests:
-- Pagination
-- Ordering
-- Filtering
-- Nested Resources
+<b>Clean, RESTFul APIs accessible over websockets & HTTP</b>
 
 Also:
 - Bulk POST (posting/creating an array of objects) with detailed responses & intelligent error handling
-- Auto subscribe to PUT changes when performing a GET request (socket.io only) for real-time web apps
 - Multiple authentication / permission levels
 
+Examples:
+---------
 <pre>
 GET http://example.com/api/v1/employees?limit=3&offset=1&order=[["firstName","asc"]]&expand=[{"resource":"templates"}]
 
