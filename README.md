@@ -4,6 +4,8 @@ Parrot (WIP)
 Server starter kit for SPA (recommend Angular.js for the client)
 - Node.js
 - Socket.io (realtime connectivity)
+- Express.js
+- CoffeeScript
 - RESTFul API available (Accessible via HTTP and Websockets)
   - Pagination
   - Filtering
